@@ -1,0 +1,36 @@
+In this file:
+
+1. Explain briefly what your project does and how it works.
+
+    My project is a game similar to Super Mario Brothers, but Peter Pan themed. The player controls a hero character,
+    which changes every level until they control Peter Pan in the final level. The hero can move left, right, and jump
+    through the use of the arrow keys. The space key allows the hero to throw a rock at the pirate, if they are within
+    500 pixels of the pirate. The player is not able to throw another rock until the previous one hits a pirate, explodes,
+    and kills the pirate. The hero must collect 3 keys on top of crates throughout each level and kill all pirates
+    (up to 3 per level) to advance to the next level. New pirates are "unlocked" as villains for each level.
+    The background image scrolls with the hero's movements until it reaches the end of it's image. With the background,
+    the crates, keys, and pirates scroll. 100 points are added for each key collected. There are also sound effects
+    throughout the game (when you close the game, when you lose, when you win, when a rock hits a pirate, when some
+    characters appear, when you start the game, etc.)
+
+2. List the names of the classes in your project.
+
+    Villain(), Hero(), Weapon(), Key(), Background(), instructions(), start(), and main()
+
+3. If working with partner(s), indicate briefly how you divided up the work,
+   that is, who did what?
+
+   I did this project on my own
+
+4. List the modules (libraries) that you used (the things in IMPORT statements).
+
+    pygame, sys, random, time
+
+5. Briefly list what things in the project are beyond what you learned
+   from the regular classwork in CSSE 120.  Include the major PyGame features
+   that you used in this list.
+
+   Making the background image scroll with the hero's movement, collidebox and collidepoint, creating buttons on the screen,
+   changing the button color when hovered over, using the mouse click within the button box to dictate which class runs,
+   playing sounds when certain events happen, adding a scoreboard element, flipping the character images based on the
+   direction they are moving (for heroes and pirates)
